@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Creative Resume</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <h1>My Resume</h1>
+      <ul>
+        <li><a onclick="scrollInto('profile')">Profile</a></li>
+        <li><a onclick="scrollInto('contact')">contact</a></li>
+        <li><a onclick="scrollInto('about')">about</a></li>
+        <li><a onclick="scrollInto('skill')">skill</a></li>
+        <li><a onclick="scrollInto('Education')">Education</a></li>
+      </ul>
+    </div>
+
+    <div class="resume">
+      <img
+        id="profile"
+        src="WhatsApp Image 2024-07-19 at 04.40.13_ba93718c.jpg"
+        height="250px"
+        width="250px"
+      />
+      <header>
+        <h1>Disha Sojitra</h1>
+        <p>Web Developer</p>
+      </header>
+
+      <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+          hello! I am Disha sojitra.i am currently studying in SDJ International
+          college,i am doing BCA degree from veer Narmad South Gujarat
+          University. I am a bright and receptive person, able to communicate
+          well with people at all levels.I am a keen, hard working, reliable
+          excellent time keeper I like to use my skills to make a positive
+          contribution to the workforce.
+        </p>
+      </section>
+
+      <section class="contact-info" id="contact">
+        <h2>Contact Information</h2>
+        <ul>
+          <li>Email: dishasojitra08@gmail.com</li>
+          <li>Phone: +91 8780544067</li>
+          <li>LinkedIn: linkedin.com/in/dishasojitra</li>
+        </ul>
+      </section>
+
+      <section class="skills" id="skill">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML5 & CSS3</li>
+          <li>JavaScript</li>
+          <li>Responsive Design</li>
+          <li>c(programming language)</li>
+        </ul>
+      </section>
+      <section class="education" id="Education">
+        <h2>Education</h2>
+        <p>Bachelor of computer application</p>
+        <p>veer nurmad south gujarat univercity, 2022-2025</p>
+        <br />
+        <p>school of secondary board</p>
+        <p>GRADE : 85%, 2021-2022</p>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,148 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  background-color: #efd3f0;
+}
+
+.navbar {
+  background-color: #e3cce2;
+  color: #4d103a;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it appears above other content */
+  transition: background-color 0.3s ease;
+}
+
+.navbar h1 {
+  background-color: #e3cce2;
+  margin: 0;
+}
+
+.navbar ul {
+  background-color: #e3cce2;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.navbar ul li {
+  font-size: 25px;
+  background-color: #e3cce2;
+  margin-right: 60px;
+}
+
+.navbar ul li a {
+  background-color: #e3cce2;
+  color: #4f0811;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #964793;
+  cursor: pointer;
+}
+
+img {
+  border-radius: 10px;
+}
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.9;
+  background-color: #e3cce2;
+  padding: 40px;
+}
+
+.resume {
+  max-width: 1600px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: right;
+  margin-bottom: 200px;
+}
+
+img {
+  float: left;
+  background-color: #ba94b9;
+}
+
+header h1 {
+  padding-top: 30px;
+  padding-right: 40px;
+  font-size: 3.5em;
+  color: #4d103a;
+}
+
+header p {
+  font-size: 2em;
+  color: #4d103a;
+  padding-right: 40px;
+  text-align: right;
+}
+
+section {
+  margin-bottom: 200px;
+}
+
+p {
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+h2 {
+  color: #4d103a;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5px;
+  color: rgb(43, 4, 4);
+  text-align: center;
+}
+p {
+  color: rgb(43, 4, 4);
+  font-size: larger;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+  .resume {
+    padding: 10px;
+  }
+  header h1 {
+    font-size: 2em;
+  }
+  header p {
+    font-size: 1.2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+}
